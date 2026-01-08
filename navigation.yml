@@ -1,0 +1,5 @@
+main:
+  - title: "CV"
+    url: /
+  - title: "Sobre mí"
+    url: /about/
