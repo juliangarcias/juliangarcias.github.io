@@ -1,0 +1,26 @@
+---
+---
+
+/* Importa el CSS del tema */
+@import "minimal-mistakes";
+
+/* Ajuste global de tipografía */
+html {
+  font-size: 95%;   /* default 100% */
+}
+
+/* Texto del cuerpo */
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* Títulos */
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+/* Sidebar (perfil) */
+.author__content {
+  font-size: 0.9rem;
+}
