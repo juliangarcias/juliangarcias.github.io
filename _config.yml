@@ -1,34 +1,37 @@
-title: "Julián García"
-description: "Economista · Políticas públicas · Desarrollo productivo"
-url: "https://TUUSUARIO.github.io"
+title: "Julián García Sanhueza"
+description: "Applied economist · Development economics · Public policy"
+url: "https://juliangarcias.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-
 plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin: "default"
+locale: "en-US"
+markdown: kramdown
 
 author:
-  name: "Julián García"
-  avatar: "/assets/img/avatar.jpg"  # opcional
-  bio: "Economista (MSc). Gobierno de Chile. Interés: innovación, política pública y desarrollo productivo."
+  name: "Julián García Sanhueza"
+  bio: "Senior Policy Analyst (Ministry of Economy, Chile). Applied economist in development economics and public policy."
   location: "Santiago, Chile"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:tu@email.com"
+      url: "mailto:sanhuezagarciajulian@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/tuusuario/"
+      url: "https://www.linkedin.com/in/gsjulian"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/tuusuario"
+      url: "https://github.com/juliangarcias"
 
 defaults:
   - scope:
       path: ""
       type: pages
     values:
-      layout: sin
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
